@@ -1,0 +1,829 @@
+<div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true"><ul>
+<li>
+<h1 id="2020-CV-Notes-for-Final）" data-id="2020-CV-Notes-for-Final）"><span>2020 CV (Notes for Final）</span></h1>
+</li>
+</ul><p><a href="https://hackmd.io/eG2UKqDdSQuXyTlB9uFPVQ" target="_blank" rel="noopener"><span>先前期中共筆</span></a><br>
+<a href="https://hackmd.io/UhyNov3ASWm6DdsFvIUcwQ" target="_blank" rel="noopener"><span>去年共筆</span></a></p><h2 id="備註更" data-id="備註更"><span>備註(更)</span></h2><ul>
+<li>
+<p><mark><span>助教研究部分，外國人助教的投影片沒有整理方法、步驟和結果，若有人知道怎麼寫可以補上，特別是「結果」我有點e不知道怎麼寫比較好</span></mark><span>``</span><br>
+<span>i</span></p>
+</li>
+<li>
+<p><mark><span>名詞解釋尚未補上「應用」，&lt;&gt;代表不確定要寫什麼</span></mark></p>
+</li>
+<li>
+<p><span>編輯權限為「所有人」皆可編輯，任何人都可以參與共筆。</span></p>
+</li>
+<li>
+<p><mark><span>關於「助教說可能會考的區塊」部分，助教說會跟老師說建議考以下區塊，但確切的題目內容還是看老師</span></mark></p>
+</li>
+</ul><h2 id="TOC" data-id="TOC"><span>TOC</span></h2><p><span class="toc"><ul>
+<li class="invisable-node"><ul>
+<li><a href="#備註更" title="備註(更)">備註(更)</a></li>
+<li><a href="#TOC" title="TOC">TOC</a></li>
+<li><a href="#Ch7-Conditioning-and-Labeling" title="Ch7 Conditioning and Labeling">Ch7 Conditioning and Labeling</a><ul>
+<li><a href="#助教說可能會考的區塊" title="助教說可能會考的區塊">助教說可能會考的區塊</a></li>
+<li><a href="#名詞解釋" title="名詞解釋">名詞解釋</a></li>
+</ul>
+</li>
+<li><a href="#Ch8-The-Facet-Model小平面模型" title="Ch8 The Facet Model(小平面模型)">Ch8 The Facet Model(小平面模型)</a><ul>
+<li><a href="#助教說可能會考的區塊1" title="助教說可能會考的區塊">助教說可能會考的區塊</a></li>
+<li><a href="#名詞解釋1" title="名詞解釋">名詞解釋</a></li>
+<li><a href="#82-Relative-Maxima" title="8.2 Relative Maxima">8.2 Relative Maxima</a></li>
+<li><a href="#83-Sloped-Facet-Parameter-and-Error-Estimation" title="8.3 Sloped Facet Parameter and Error Estimation">8.3 Sloped Facet Parameter and Error Estimation</a></li>
+<li><a href="#84-Facet-Based-Peak-Noise-Removal" title="8.4 Facet-Based Peak Noise Removal">8.4 Facet-Based Peak Noise Removal</a></li>
+</ul>
+</li>
+<li><a href="#Ch9-Texture" title="Ch9 Texture">Ch9 Texture</a><ul>
+<li><a href="#助教說可能會考的區塊2" title="助教說可能會考的區塊">助教說可能會考的區塊</a></li>
+<li><a href="#名詞解釋2" title="名詞解釋">名詞解釋</a></li>
+</ul>
+</li>
+<li><a href="#Ch10-Image-Segmentation" title="Ch10 Image Segmentation">Ch10 Image Segmentation</a><ul>
+<li><a href="#助教說可能會考的區塊3" title="助教說可能會考的區塊">助教說可能會考的區塊</a></li>
+<li><a href="#名詞解釋3" title="名詞解釋">名詞解釋</a></li>
+</ul>
+</li>
+<li><a href="#Ch11-Arc-Extraction-and-Segmentation" title="Ch11 Arc Extraction and Segmentation">Ch11 Arc Extraction and Segmentation</a><ul>
+<li><a href="#助教說可能會考的區塊4" title="助教說可能會考的區塊">助教說可能會考的區塊</a></li>
+<li><a href="#名詞解釋4" title="名詞解釋">名詞解釋</a></li>
+</ul>
+</li>
+<li><a href="#助教們研究" title="助教們研究">助教們研究</a><ul>
+<li><a href="#1Vehicle-License-Plate-Recognition-with-Deep-Learning" title="1.Vehicle License Plate Recognition with Deep Learning">1.Vehicle License Plate Recognition with Deep Learning</a></li>
+<li><a href="#2Label-Optical-Character-Recognition" title="2.Label Optical Character Recognition.">2.Label Optical Character Recognition.</a></li>
+<li><a href="#3Time-of-Flight-Camera-Calibration" title="3.Time of Flight Camera Calibration">3.Time of Flight Camera Calibration</a></li>
+<li><a href="#4Solder-Quality-Analysis" title="4.Solder Quality Analysis">4.Solder Quality Analysis</a></li>
+<li><a href="#5Noise-Reduction-for-Enhancing-Speech-Quality-And-Intelligibility" title="5.Noise Reduction for Enhancing Speech Quality And Intelligibility">5.Noise Reduction for Enhancing Speech Quality And Intelligibility</a></li>
+</ul>
+</li>
+<li><a href="#Bonus" title="Bonus">Bonus</a></li>
+<li><a href="#考古" title="考古">考古</a><ul>
+<li><a href="#108" title="108">108</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</span></p><h2 id="Ch7-Conditioning-and-Labeling" data-id="Ch7-Conditioning-and-Labeling"><span>Ch7 Conditioning and Labeling</span></h2><h3 id="助教說可能會考的區塊" data-id="助教說可能會考的區塊"><span>助教說可能會考的區塊</span></h3><p><span>投影片右上角寫"Test"的部分</span><br>
+<img src="https://i.imgur.com/wMrEA1O.png" alt="test"><br>
+<span>Order</span><br>
+<img src="https://i.imgur.com/jnQNAXO.png" alt=""></p><h3 id="名詞解釋" data-id="名詞解釋"><span>名詞解釋</span></h3><ul>
+<li>
+<p><span>conditioning:(調節/潤飾)</span><br>
+<span>內容：</span><br>
+<span>Conditioning is based on a model that suggests that the observed image is composed of an informative pattern modified by uninteresting variations that typically add to or multiply the informative pattern.</span><br>
+<span>在具有眾多pattern的影像中，也就是在informative的影像中，我們想要知道特定的pattern，因此要將informative image uninteresting pattern，去除其他干擾</span><br>
+<span>調節是基於一個模型的，該模型表明觀察到的影像由訊息模式組成，該訊息模式由通常不會增加或增加訊息模式的無趣變化所修飾。</span><br>
+<span>基於模型指出觀測到的影像會由一些帶有訊息的pattern組成(informative pattern)，而這些帶有訊息的pattern，可以經由在informative pattern加上uninteresting variation</span><br>
+<span>目的：</span><br>
+<mark><span>去除無用的資訊、雜訊</span></mark><br>
+<span>應用：</span><br>
+<span>降躁、影像銳利化、背景均一化</span></p>
+</li>
+<li>
+<p><span>labeling:(標記)</span><br>
+<span>內容：</span><br>
+<span>Labeling is based on a model that suggests that the informative pattern has structure as a spatial arrangement of events, each spatial event being a set of connected pixels.</span><br>
+<span>基於一個模型，該模型表明訊息模式具有事件空間排列的結構，每個空間事件都是一組相連的像素。</span><br>
+<mark><span>針對像素進行標籤</span></mark><br>
+<span>目的：</span><br>
+<mark><span>讓電腦能夠透過學習來認知影像中的物件</span></mark><br>
+<span>應用：</span><br>
+<span>閥值化、邊緣檢測、自駕車、機器人、相片搜尋、影片檢索、商品搜尋、辨識影像中的各種物體、thresholding、edge detection、corner finding</span></p>
+</li>
+<li>
+<p><span>Noise cleaning:</span><br>
+<span>雜訊去除以鄰域</span><mark><span>空間的連貫性</span></mark><span>和</span><mark><span>鄰域pixel值均勻性</span></mark><span>為基礎，用image上其他更相關的pixel值做替換，或通過鄰域中的其他像素進行平均或平滑過的值做取代。</span></p>
+</li>
+</ul><blockquote>
+<p><span>Using neighborhood spatial coherence and neighborhood pixel value homogeneity as its basis for removing noise data. The noise data is replaced by some spacial coherent data or smoothed according to the neighborhood data.</span></p>
+</blockquote><ul>
+<li>
+<p><span>Zero-crossing edge detector:</span><br>
+<span>一種邊緣檢測，能檢測拉普拉斯算子的值穿過零的位置，即拉普拉斯算子改變符號的點.</span><br>
+<span>通常落於閉合輪廓上(closed contour)</span><br>
+<a href="https://homepages.inf.ed.ac.uk/rbf/HIPR2/zeros.htm" target="_blank" rel="noopener"><span>https://homepages.inf.ed.ac.uk/rbf/HIPR2/zeros.htm</span></a></p>
+</li>
+<li>
+<p><span>Median root:</span><br>
+<span>一直重複做median filter會得到一個最後不會再改變的結果稱為 median root</span></p>
+</li>
+<li>
+<p><span>k-nearest neighbor average:</span><br>
+<span>將附近的所有像素值與中心像素值進行比較。 最接近的k個像素值用於確定最終值，在這種情況下為這些k個像素的平均值。</span></p>
+</li>
+<li>
+<p><span>Outlier or peak noise:</span><br>
+<span>離群值(峰值雜訊)，一個像素，其像素值與其相鄰像素值明顯不同，像素值會被隨機雜訊替換。</span></p>
+</li>
+</ul><blockquote>
+<p><span>The value of the pixel at this position is simply replaced by a random noise value typically having little to do with the underlying pixel’s value.</span><br>
+<span>A pixel that has a value awkwardly different from its neighbors.</span></p>
+</blockquote><ul>
+<li>
+<p><span>Order Statistic Neighborhood Operators</span><br>
+<span>將鄰域像素排序後所設計的鄰域運算子</span><br>
+<span>如Median Operator</span></p>
+</li>
+<li>
+<p><span>Digital edge：一條影像上的邊界，左右兩側的pixel value 明顯不同（灰階值有明顯的變化的地方）</span></p>
+</li>
+<li>
+<p><span>Edge : 亮度有突然的抬升或下降。</span></p>
+</li>
+</ul><p><img src="https://i.imgur.com/awYBsvG.png" alt="" width="500" height="300"></p><ul>
+<li>
+<p><span>Step edge：階梯邊緣(步邊)的展示就是影像亮度明暗的不連續。（灰階明暗變化明顯且不連續）</span><br>
+<span>a discontinuity in </span><mark><span>the magnitude</span></mark><span> of the image intensity.</span></p>
+</li>
+<li>
+<p><span>Roof edge：屋頂邊緣的展示就是影像亮度的第一個偏差中的不連續性。（影像灰階強度一階導數不連續）</span><br>
+<span>discontinuity in the </span><mark><span>first derivative</span></mark><span> of the image intensity.</span></p>
+</li>
+<li>
+<p><span>Line edge：兩個彼此靠近的step edge。（兩側明暗變化明顯的邊緣）</span><br>
+<span>Line edge comprises  </span><mark><span>two step edges that are close together</span></mark><span>.</span></p>
+</li>
+<li>
+<p><span>Sobel Edge Detector（gradient detector）</span><br>
+<img src="https://i.imgur.com/Axxt23i.png" alt="" width="300"></p>
+</li>
+</ul><p><span>Laplacian透過計算二次微分通過零點(Zero Crossing)觀念來判定。</span><br>
+<span>Sobel使用的則是Gradient methods。</span></p><ul>
+<li>
+<p><span>Line segment (線段)</span><br>
+<span>可以被描述成一個拉長的矩形，其內部有一致的灰階值，被另一個擁有不同灰階值區域區隔開來。</span></p>
+</li>
+<li>
+<p><span>SNR</span><br>
+<img src="https://i.imgur.com/TSgfeAX.png" alt="" width="300" height="150"></p>
+</li>
+<li>
+<p><span>salt and pepper noise</span><br>
+<img src="https://i.imgur.com/gcIM6QJ.png" alt="" width="300" height="150"></p>
+</li>
+</ul><h5 id="A-Statistical-Framework-for-Noise-Removal" data-id="A-Statistical-Framework-for-Noise-Removal"><span>A Statistical Framework for Noise Removal</span></h5><blockquote style="border-left-color: rgb(247, 243, 2);">
+<p><span>Masks for different assumptions</span><span class="color" data-color="#f7f302"></span></p>
+</blockquote><p><span>1.假設這張影像的雜訊是隨機而且不相關的</span><br>
+<span>參數: </span><span class="mathjax raw">\(\alpha, \beta\)</span><br>
+<img src="https://i.imgur.com/B1csgkG.png" alt=""></p><p><span>2.假設這張影像的雜訊是有相關性的，且相關性是</span><span class="mathjax raw">\(ρ^n\)</span><span>，n&gt; 1，n代表的是距離</span><br>
+<span>參數: </span><span class="mathjax raw">\(\rho\)</span><br>
+<img src="https://i.imgur.com/TZfIoMQ.png" alt=""></p><h5 id="TEST-Noise-RemovalMethods" data-id="TEST-Noise-RemovalMethods"><mark><strong><span>TEST</span></strong></mark><span> Noise Removal(Methods)</span></h5><blockquote style="border-left-color: rgb(247, 243, 2);">
+<p><span>偵測並替換noise pixels，以下共十種方法</span><span class="color" data-color="#f7f302"></span></p>
+</blockquote><ol start="0">
+<li><span>變數定義</span><br>
+<img src="https://i.imgur.com/CErKp7K.png" alt="" width="300" height="200"><br>
+<span class="mathjax raw">\(\hat{\sigma}^2 = \frac{1}{N-1}\sum_{n=1}^N(x_n-\hat{\mu})^2\)</span></li>
+</ol><p><mark><span>non-order statistic neighborhood operators</span></mark></p><ol>
+<li>
+<p><span>Outlier Removal:</span><br>
+<span>假如 </span><span class="mathjax raw">\(y - \hat{\mu}\)</span><span> &lt; 門檻值，則輸出 y, 保持中心值值不變</span><br>
+<span>假如 </span><span class="mathjax raw">\(y -\hat{\mu}\)</span><span> &gt;= 門檻值，表示 y 是 outlier, 用 </span><span class="mathjax raw">\(\hat{\mu}\)</span><span> 取代之</span><br>
+<span class="mathjax raw">\(\begin{equation}
+ Z =
+  \begin{cases}
+     y &amp; \text{if}\ \ |y-\hat{\mu}| &lt; \theta \\
+     \hat{\mu} &amp; \text{else}
+  \end{cases}
+\end{equation}\)</span></p>
+</li>
+<li>
+<p><span>contrast-dependent outlier removal</span><br>
+<span>相依對比的離群值移除</span><br>
+<span class="mathjax raw">\(\begin{equation}
+ Z =
+  \begin{cases}
+     y &amp; \text{if}\ \ \frac{|y-\hat{\mu}|}{|\hat{\sigma}|} &lt; \theta \\
+     \hat{\mu} &amp; \text{else}
+  \end{cases}
+\end{equation}\)</span></p>
+</li>
+<li>
+<p><span>smooth replacement(convex combination of input and mean)</span><br>
+<span>中心pixel和</span><span class="mathjax raw">\(\mu\)</span><span>做線性組合。</span><br>
+<span>Two special cases:</span><br>
+<span class="mathjax raw">\(K = 0 \Rightarrow Z = \hat{\mu}\)</span><br>
+<span class="mathjax raw">\(K = \infty \Rightarrow Z = y\)</span><br>
+<span class="mathjax raw">\(\begin{equation}
+ Z = \frac{\frac{|y-\hat{\mu}|}{|\hat{\sigma}|}}{\frac{|y-\hat{\mu}|}{|\hat{\sigma}|}+K}\hat{\mu} + \frac{K}{\frac{|y-\hat{\mu}|}{|\hat{\sigma}|}+K}y
+\end{equation}\)</span></p>
+</li>
+<li>
+<p><span>K-nearest Neighbor 像素值最接近中心值的k個neighbor取平均</span><br>
+<span>average of k-nearest neighbors</span></p>
+</li>
+<li>
+<p><span>Gradient Inverse Weighted</span><br>
+<span>Step1：g(r’, c’, r, c)  = neighbor距離參考點(中心點)的倒數，來當作weight(center delete)</span><br>
+<span>Step2：加總所有的weight</span><br>
+<span>Step3：除中心點外的其他權重矩陣元素為W(r’, c’, r, c)，8個加權係數之和為1/2   (建立標準化的權重矩陣W作為平滑的mask)</span><br>
+<span>Step4：原像素f分別與w相應位置上的權重相乘，積之和就是中心點的平滑輸出。</span><br>
+<span>(下面的step2公式有點怪跟圖對不上，應該就按照圖就好了，如果出這應該算有點爭議)</span><br>
+<img src="https://i.imgur.com/H269FEd.png" alt="" width="300" height="200"></p>
+</li>
+</ol><p><mark><span>order statistic neighborhood operators</span></mark><br>
+<span>6. Median Operator</span><br>
+<span>排序過後的鄰域中的median數值代替中心數值</span><br>
+<span>effective for impulsive noise(salt and pepper)</span><br>
+<img src="https://i.imgur.com/jqKCiZx.png" alt="" width="150" height="50"></p><ol start="7">
+<li>
+<p><span>Running Median Filter</span><br>
+<span>Q : 四分位差距</span><br>
+<img src="https://i.imgur.com/bNu72EX.png" alt="" width="300" height="150"></p>
+</li>
+<li>
+<p><span>Trimmed-Mean Operator</span><br>
+<span>不使用前k和後k次序統計，只用中心N-2k的加權平均數</span><br>
+<img src="https://i.imgur.com/wUTgYCi.png" alt="" width="350" height="150"></p>
+</li>
+<li>
+<p><span>Midrange operator</span><br>
+<span>最亮+最暗/2</span><br>
+<span>僅在雜訊分佈輕而平滑時較有效率，否則此方法不適用於大部分的情況</span><br>
+<img src="https://i.imgur.com/fTcMRA5.png" alt="" width="350" height="150"></p>
+</li>
+<li>
+<p><span>Sigma Filter</span><br>
+<span>僅在兩個sigma間隔內取平均值</span><br>
+<img src="https://i.imgur.com/3gfU8Sp.png" alt="" width="350" height="100"></p>
+</li>
+</ol><h4 id="Sharpening" data-id="Sharpening"><span>Sharpening</span></h4><ol>
+<li><span>Unsharp masking</span><br>
+<span>從每個像素中減去鄰域平均值，然後縮放數值。</span><br>
+<span>效果：產生的影像，雖然更清晰，可能是一個較不准確的影像。</span><br>
+<span class="mathjax raw">\(Z_{sharpened}\)</span><span> = s * [y - k</span><span class="mathjax raw">\(\hat{\mu}\)</span><span>]</span></li>
+<li><span>Extreme Sharpening</span><br>
+<span>輸出值是鄰域的最小值或最大值與中心像素值之間的接近值。也就是說看中心pixel值離鄰域的極大值或極小值這兩種極值，哪個極值較近就當作輸出。</span><br>
+<span>效果： 讓intensity強的pixel 更強(intensity亮度、強度)讓intensity弱的pixel 更弱</span><br>
+<img src="https://i.imgur.com/AzMR80Y.png" alt="" width="300"></li>
+</ol><p><span>Edge Detection</span></p><p><span>數字邊緣是兩個像素之間的邊界，當兩個像素的亮度值”明顯不同”時就是邊緣。目的是要找出灰階中有劇烈變化的邊界</span></p><ul>
+<li>
+<p><span>Roberts Operator</span><br>
+<img src="https://i.imgur.com/CYYnJK6.png" alt=""></p>
+</li>
+<li>
+<p><span>Prewitt edge detector</span><br>
+<img src="https://i.imgur.com/EL3J9t1.png" alt=""></p>
+</li>
+<li>
+<p><span>Sobel Operator</span></p>
+</li>
+</ul><p><span>Properties</span></p><p><mark><span>Four important properties an edge operator might have</span></mark><span>:</span><br>
+<span>準確估計梯度的大小</span><br>
+<span>準確估計梯度的方向</span><br>
+<span>準確估計step edge 的對比性</span><br>
+<span>準確估計step edge 的方向性</span></p><p><span>gradient direction: used for edge organization, selection, linking.</span></p><p><span>False-alarm rate : 假警報 把不是邊的pixel判定成是邊的pixel</span><br>
+<span>Misdetection rate :  誤檢率 明明是邊上的pixel卻判定成不在邊上</span></p><p><span>Common Masks to calculate Laplacian</span><br>
+<img src="https://i.imgur.com/s3usxLD.png" alt=""><br>
+<span>Minimum variance:</span><br>
+<span>2, -1, 2</span><br>
+<span>-1, -4, -1,</span><br>
+<span>2, -1, 2</span></p><h2 id="Ch8-The-Facet-Model小平面模型" data-id="Ch8-The-Facet-Model小平面模型"><span>Ch8 The Facet Model(小平面模型)</span></h2><h3 id="助教說可能會考的區塊1" data-id="助教說可能會考的區塊"><span>助教說可能會考的區塊</span></h3><p><span>考8-2 ~ 8-3 (8-4)</span></p><h3 id="名詞解釋1" data-id="名詞解釋"><span>名詞解釋</span></h3><ul>
+<li><span>Facet model:</span><br>
+<span>可以將圖像視為基礎連續體或分段連續灰階強度表面，其中包括分段常數（平面小平面模型)，分段線性（傾斜小平面模型），分段二次和分段三次。</span></li>
+</ul><blockquote>
+<p><span>Images can be thought of as an underlying continuum or piecewise continuous gray level intensity surface, which includes piecewise constant (flat facet model), piecewise linear (sloped facet model), piecewise quadratic and piecewise cubic.</span></p>
+</blockquote><ul>
+<li><span>peak noise pixel</span><br>
+<span>尖端雜訊像素，灰階值意義上和鄰居不一樣(略顯突兀的感覺)</span></li>
+</ul><ul>
+<li><span>gradient-based edge detection</span><br>
+<span>high values in first partial derivative (sharp discontinuities)</span></li>
+</ul><ul>
+<li><span>Iterated Facet Model</span></li>
+</ul><ol>
+<li><span>可以被分割成許多相連區域</span></li>
+<li><span>每一個都符合特定的灰階和形狀限制</span><br>
+<span>facets:image spatial domain partitioned into connected regions</span><br>
+<span>facets:satisfy certain gray level and shape constraints</span><br>
+<span>facets:gray levels as polynomial function of row-column coordinates</span></li>
+</ol><ul>
+<li>
+<p><span>Shape region constraint:</span><br>
+<span>各個小平面必須是平滑形狀(</span><span class="mathjax raw">\(k*k\)</span><span> blocks of pixels)</span></p>
+</li>
+<li>
+<p><span>Region gray level constraint:</span><br>
+<span>Gray levels in each facet must be a polynomial function of row-column coordinates.</span><br>
+<span>每一個小平面的座標(R, C)必須是多項式方程式(facet model)</span><br>
+<span>Output 會是最小 variance</span><br>
+<span>並具有最小的residual error</span></p>
+</li>
+</ul><ul>
+<li>
+<p><span>Gradient-Based Facet Edge Detection </span><a href="https://i.imgur.com/Lvo1V8W.png" target="_blank" rel="noopener"><span>https://i.imgur.com/Lvo1V8W.png</span></a><br>
+<span>梯度邊界偵測就是找一階偏微分的值很大的地方（明顯的不連續）</span></p>
+</li>
+<li>
+<p><span>Bayesian Approach to Gradient Edge Detection</span><br>
+<span>G代表gradient</span><br>
+<img src="https://i.imgur.com/Lvo1V8W.png" alt=""></p>
+</li>
+<li>
+<p><span>directional derivative</span><br>
+<span>rate of change in the given direction</span><br>
+<span>應用：Directional Derivative Edge Finder</span></p>
+</li>
+<li>
+<p><span>Integrated Directional Derivative Gradient Operator</span><br>
+<span>透過對一階方向導數做方形(square area)積分，來量測積分方向導數的強度</span></p>
+</li>
+<li>
+<p><span>corner detection algorithm</span><br>
+<img src="https://i.imgur.com/zSAew2y.png" alt="" width="500" height="300"></p>
+</li>
+<li>
+<p><span>corner points</span><br>
+<span>A corner can be defined as the intersection of two edges.</span><br>
+<span>求出一對圖片的位移向量</span><br>
+<span>角落的2條件:有邊出現、明顯邊方向的變化</span><br>
+<span>目的：可以從影像中提取的其他類的特徵包括角、孔和地形標記(峰、脊和谷)。</span><br>
+<span>應用：空照圖偵測建築物</span></p>
+</li>
+</ul><h4 id="topography" data-id="topography"><span>topography</span></h4><p><span>define</span></p><p><span class="mathjax raw">\(𝜆_1\)</span><span> is second directional derivative in </span><span class="mathjax raw">\(𝜔^{(1) }\)</span><span>direction.</span><br>
+<span class="mathjax raw">\(𝜆_2\)</span><span> is second directional derivative in </span><span class="mathjax raw">\(𝜔^{(2) }\)</span><span>direction.</span><br>
+<span class="mathjax raw">\(\omega^{(1)}\)</span><span>: 二階方向導數具有最大強度的單位方向向量(vector)</span><br>
+<span class="mathjax raw">\(\omega^{(2)}\)</span><span>: 正交於</span><span class="mathjax raw">\(\omega^{(1)}\)</span><span>的向量(vector)</span></p><ul>
+<li>
+<p><span>Peak</span><br>
+<img src="https://i.imgur.com/uyr9rVo.png" alt=""></p>
+</li>
+<li>
+<p><span>Pit</span><br>
+<img src="https://i.imgur.com/VxEmQwQ.png" alt=""></p>
+</li>
+<li>
+<p><span>Ravine(Valley)</span><br>
+<span>灰階值比 neighbors 低的 connected sequence of pixels</span><br>
+<span>深谷發生在灰階值比鄰居低</span><br>
+<img src="https://i.imgur.com/Uv0Fy8t.png" alt=""></p>
+</li>
+<li>
+<p><span>Ridge</span><br>
+<span>灰階值比 neighbors 高的 connected sequence of pixels</span><br>
+<span>山脊發生在灰階值比鄰居高</span></p>
+</li>
+</ul><p><img src="https://i.imgur.com/MzgrN5q.png" alt=""></p><ul>
+<li>
+<p><span>Saddle</span><br>
+<img src="https://i.imgur.com/WrMVK8w.png" alt=""></p>
+</li>
+<li>
+<p><span>Flat</span><br>
+<img src="https://i.imgur.com/30f0wRd.png" alt=""></p>
+</li>
+<li>
+<p><span>Hillside</span><br>
+<span>A hillside point is anything not covered by previous categories.</span></p>
+</li>
+</ul><h3 id="82-Relative-Maxima" data-id="82-Relative-Maxima"><span>8.2 Relative Maxima</span></h3><p><span>須滿足以下兩條件</span></p><ul>
+<li><span>first derivative zero 一階微分為零</span></li>
+<li><span>second derivative negative 二階微分為負</span></li>
+</ul><h4 id="How-to-solve" data-id="How-to-solve"><span>How to solve</span></h4><p><span>Step1:Given one-dimensional observation sequence </span><span class="mathjax raw">\(f_1,f_2,f_3,...,f_N\)</span></p><p><span>Step2:定義group(window) size = 2k+1</span></p><p><span>Step3:最小化</span><span class="mathjax raw">\(\epsilon_n^2=\sum_{m=-k}^{k}{(\hat{c}m^2+\hat{b}m+\hat{a}-f_{n+m})^2}\)</span><span>，對應的三個參數</span><span class="mathjax raw">\(\hat{c},\hat{b},\hat{a}\)</span></p><blockquote>
+<p><span>最小化 即 一階微分=0</span></p>
+</blockquote><p><img src="https://i.imgur.com/pTEt5jb.png" alt="" width="200"></p><p><span>Step4:檢驗relative maxima</span></p><p><img src="https://i.imgur.com/g4plla8.png" alt="" width="300" height="100"></p><h4 id="Example" data-id="Example"><span>Example</span></h4><p><span>請看ppt，總之就是上面的step1~step4</span></p><h3 id="83-Sloped-Facet-Parameter-and-Error-Estimation" data-id="83-Sloped-Facet-Parameter-and-Error-Estimation"><span>8.3 Sloped Facet Parameter and Error Estimation</span></h3><h4 id="How-to-solve1" data-id="How-to-solve"><span>How to solve</span></h4><p><span>Step1:</span><br>
+<span>Define </span><span class="mathjax raw">\(g(r,c)\)</span><span> image function, assume the given pixel is (0,0)</span><br>
+<span class="mathjax raw">\(g(r,c)=\alpha r + \beta c + \gamma + \eta(r,c)\)</span><br>
+<img src="https://i.imgur.com/Uywjqvb.png" alt=""></p><p><span>Step2:</span><br>
+<span>最小化</span><br>
+<span class="mathjax raw">\(\epsilon^2=\sum_{r\in R}\sum_{c\in C}(\hat{\alpha} r + \hat{\beta} c + \hat{\gamma}-g(r,c))^2\)</span><span>，求三個參數</span><span class="mathjax raw">\(\hat{\alpha},\hat{\beta},\hat{\gamma}\)</span><br>
+<img src="https://i.imgur.com/bLLfIn4.png" alt="" width="150" height="150"></p><p><span>Step3:</span><br>
+<span>根據image求</span><span class="mathjax raw">\(g(r,c)\)</span><span>，並計算error</span><br>
+<span class="mathjax raw">\(\epsilon^2=\sum_{r\in R}\sum_{c\in C}(\epsilon(r,c))^2\)</span></p><p><span>Step4:</span><br>
+<span class="mathjax raw">\(\sigma^2 = \frac{\epsilon^2}{[(\sum_{r}\sum_{c}1) - 3]}\)</span></p><p><img src="https://i.imgur.com/bioiVyE.png" alt="" width="300" height="150"><br>
+<span>(這公式好像有點怪，</span><span class="mathjax raw">\(\epsilon^2\)</span><span>，上方是11.19，圖中下方是</span><span class="mathjax raw">\(11.19^2\)</span><span>)</span><br>
+<span>(這樣應該算有爭議(?))</span><br>
+<span>(之前我下課問過助教，他說是下面數字錯了)</span></p><h4 id="Example1" data-id="Example"><span>Example</span></h4><p><span>請看ppt: p.45 ~ p.58</span><br>
+<span>註: 助教註解有說，可能就考跟example一樣的(可能數字不改&amp;附公式)</span></p><h3 id="84-Facet-Based-Peak-Noise-Removal" data-id="84-Facet-Based-Peak-Noise-Removal"><span>8.4 Facet-Based Peak Noise Removal</span></h3><p><span>step1: 用8.3方法(去掉中心點)，算出</span><span class="mathjax raw">\(\epsilon^2跟\hat{\alpha},\hat{\beta},\hat{\gamma}\)</span><br>
+<span>step2 t-test</span><br>
+<img src="https://i.imgur.com/lv6b8hH.png" alt="" width="150" height="80"><br>
+<span>if t &gt;𝑇_(#𝑁−3, 𝑝) then g(0,0) = </span><span class="mathjax raw">\(\hat{\gamma}\)</span><br>
+<span>else pass(代表g(0,0)不是peak noise)</span></p><h2 id="Ch9-Texture" data-id="Ch9-Texture"><span>Ch9 Texture</span></h2><h3 id="助教說可能會考的區塊2" data-id="助教說可能會考的區塊"><span>助教說可能會考的區塊</span></h3><ol>
+<li><span>Introduction : 9.1</span></li>
+<li><span>Application : 9.16 ~ 9.18</span></li>
+<li><span>Texture Analysis Issues(p.21)投影片</span></li>
+</ol><h3 id="名詞解釋2" data-id="名詞解釋"><span>名詞解釋</span></h3><ul>
+<li>
+<p><span>Autocorrelation function</span><br>
+<span>Autocorrelation function is a feature that describes the size of gray level primitives</span></p>
+</li>
+<li>
+<p><span>texture edgeness</span><br>
+<span>根據每單位面積的邊緣度來構思紋理。</span></p>
+</li>
+<li>
+<p><span>Vector Dispersion</span><br>
+<span>將紋理劃分為互斥的鄰域 (每個平面最像，相互之間error最小的區域)，以鄰域灰階值來為每個鄰域fit傾斜平面</span></p>
+</li>
+<li>
+<p><span>Coarseness:</span><br>
+<span>粗紋理，具有很小的方差，並且分佈僅隨距離而略有變化。</span></p>
+</li>
+<li>
+<p><span>Fractal</span><br>
+<span>Fractal 碎形，一種自然的現象或是數學運算使圖像在不同 scale 上 recursive 畫出相同的 pattern</span><br>
+<span>重複劃出相同的圖案</span><br>
+<span>這一類recursive的動作畫出的pattern我們稱為fractal</span></p>
+</li>
+<li>
+<p><span>Relative Maxima and Relative Minima</span><br>
+<img src="https://i.imgur.com/8QVZO5A.png" alt=""></p>
+</li>
+<li>
+<p><span>tangent line</span><br>
+<span>切線，指的是一條剛好觸碰到曲線上某一點的直線。更準確地說，當切線經過曲線上的某點（即切點）時，切線的方向與曲線上該點的方向是相同的。</span></p>
+</li>
+<li>
+<p><span>granularity(顆粒度)</span><br>
+<img src="https://i.imgur.com/xwQCBsT.png" alt=""><br>
+<span>一張binary image F 透過</span><br>
+<span>直徑為d的structure element opening 後佔整體的比例</span><br>
+<span>Image 經過直徑為d的structure element  Opening  後</span><br>
+<span>表示會留下顆粒度比d還要大的部分</span><br>
+<span>再用1去扣掉，表示比d還小的部分</span><br>
+<span>顆粒度小的(fine) 曲線比較快達到100% (畫圖)</span><br>
+<span>反之 曲線比較平緩達到100%</span></p>
+</li>
+<li>
+<p><span>AutoRegresssion Models</span><br>
+<span>使用附近pixel對目前像素的值進行線性估計</span></p>
+</li>
+<li>
+<p><span>Discrete Marcov Random Fields</span><br>
+<span>每個像素的值是其附近值與相關noise的線性組合</span></p>
+</li>
+<li>
+<p><span>Mosaic model:</span><br>
+<span>包括2個步驟：首先將平面細分為單元，然後為每個單元分配屬性值。</span></p>
+</li>
+</ul><h4 id="91-Introduction" data-id="91-Introduction"><span>9.1 Introduction</span></h4><ul>
+<li><span>Texture</span><br>
+<mark><span>A set texels occurring in some regular or repeated pattern.</span></mark><br>
+<span>Described by</span></li>
+</ul><blockquote>
+<ul>
+<li><span>type of primitives</span></li>
+<li><span>number of primitives</span></li>
+<li><span>spatial organization or layout</span></li>
+</ul>
+</blockquote><p><span>應用:</span></p><ul>
+<li>
+<p><span>Texel(Texture element)</span><br>
+<mark><span>Texel是可以透過重新排列組合，組成Texture的單位</span></mark><br>
+<span>應用:</span></p>
+</li>
+<li>
+<p><span>Texture Primitive</span><br>
+<mark><span>texture內 相同類型 相同屬性的小單位</span></mark><br>
+<span>E.g Simplest primitive: pixel with gray level attribute</span></p>
+</li>
+</ul><blockquote>
+<p><span>Connected set of pixels characterized by attribute set.</span></p>
+</blockquote><h4 id="Texture-Analysis-Issues" data-id="Texture-Analysis-Issues"><span>Texture Analysis Issues</span></h4><p><span>Pattern recognition:</span><br>
+<span>Given textured region, </span><mark><span>determine the class</span></mark><span> the region belongs to.</span></p><p><span>Generative model:</span><br>
+<span>Given textured region, </span><mark><span>determine a description or model</span></mark><span> for it.</span></p><p><span>Texture segmentation:</span><br>
+<span>Given image having many textured areas, </span><mark><span>determine boundaries</span></mark><span>.</span></p><p><span>9.2 &amp; 9.3 co-occurrence  -&gt; 顆粒大小</span><br>
+<span>9.4 autocorrelation  -&gt; 顆粒、隨機性</span><br>
+<span>9.5 digital transform methods  -&gt; 方向、顆粒</span><br>
+<span>9.6 texture energy (convolution) -&gt; segmentation</span><br>
+<span>9.7 texture edgeness -&gt; Edge的粗細、方向</span><br>
+<span>9.8 vector dispersion  -&gt; 粗糙、平坦</span><br>
+<span>9.9 relative extrema density  -&gt; 顆粒</span><br>
+<span>9.10 mathematical morphology -&gt; 顆粒、碎形</span><br>
+<span>9.11 ~ 9.13 autoregression, Markov random field, random mosaic models -&gt; 係數推測</span></p><h4 id="Application" data-id="Application"><span>Application</span></h4><ul>
+<li>
+<p><span>Texture Segmentation</span><br>
+<span>紋理分割是將圖像分成具有不同紋理的區域，包含相似的像素組。</span><br>
+<span>有很多不同方法如使用texture energy的方式或深度學習</span></p>
+</li>
+<li>
+<p><span>Synthetic Texture Image Generation</span><br>
+<span>步驟0：輸入樣本紋理(sample texture)</span><br>
+<span>步驟1：從原始紋理樣本圖像中選擇一個區域作為初始區域。</span><br>
+<span>步驟2：在原始圖像中找到邊緣相似的區域。</span><br>
+<span>步驟3：將其粘貼到結果圖像上。</span><br>
+<span>步驟4：返回步驟2並重複。</span></p>
+<ul>
+<li><span>Step0 : Input sample texture</span></li>
+<li><span>Step1: Choose a region from the original texture sample image as the initial region.</span></li>
+<li><span>Step2: Find the region with the similar edges in the original image.</span></li>
+<li><span>Step3: Paste it on the result image.</span></li>
+<li><span>Step4: Back to Step2 and repeat.</span></li>
+</ul>
+</li>
+<li>
+<p><span>Shape from Texture</span><br>
+<span>使用圖像紋理的gradient來估計3D物體的表面方向</span></p>
+</li>
+</ul><h2 id="Ch10-Image-Segmentation" data-id="Ch10-Image-Segmentation"><span>Ch10 Image Segmentation</span></h2><h3 id="助教說可能會考的區塊3" data-id="助教說可能會考的區塊"><span>助教說可能會考的區塊</span></h3><ol>
+<li><span>10.2.1 k-means clustering</span></li>
+<li><span>10.2.3 thresholding</span></li>
+<li><span>10.6 Split and Merge</span></li>
+</ol><h3 id="名詞解釋3" data-id="名詞解釋"><span>名詞解釋</span></h3><ul>
+<li>
+<p><span>image segmentation</span><br>
+<span>將圖片劃分成一組不重疊的區域，而這些分割區域的聯集是整個圖片</span><br>
+<span>partition of image into set of non-overlapping regions union of segmented regions is the entire image</span></p>
+</li>
+<li>
+<p><span>Label標記：</span><br>
+<span>獨特的名字或是索引。作為具有潛在目標區域的辨識碼</span><br>
+<span>A pixel whose value is in the ith interval is labeled with index i.</span></p>
+</li>
+<li>
+<p><span>Connected Component連通元件：</span><br>
+<span>Connected components, in a 2D image, are connected region of pixels with the same value or label.</span></p>
+</li>
+<li>
+<p><span>Recursive histogram-directed spatial clustering.</span><br>
+<img src="https://i.imgur.com/6mVbZEJ.png" alt="" height="500"></p>
+</li>
+<li>
+<p><span>LANDSAT image</span><br>
+<span>consists of seven separate images called bands</span></p>
+</li>
+<li>
+<p><span>Single-Linkage Region Growing</span><br>
+<span>將每個像素視為Graph中的節點，將具有足夠相似屬性的相鄰像素透過arc連接</span><br>
+<span>regard each pixel as node in graph</span><br>
+<span>neighboring pixels with similar enough properties: joined by an arc</span></p>
+</li>
+<li>
+<p><span>Hybrid-Linkage Region Growing</span><br>
+<span>將屬性向量分配給每個像素，建立相似度。並使用edge detector判斷將non-edge的相鄰相似像素用arc連接。</span><br>
+<span>屬性向量：取決於像素的K x K鄰域</span></p>
+</li>
+<li>
+<p><span>Centroid-Linkage Region Growing</span><br>
+<span>1.以某種預定的方式掃描圖像，例如左右，上下。</span><br>
+<span>2.將像素值與已經存在相鄰segment平均值進行比較。</span><br>
+<span>3.如果和平均值足夠接近，則將像素添加到segment中，並更新segment的平均值。</span><br>
+<span>4.如果兩個區域的均值足夠接近，則將兩個區域合併，並將像素添加到合併的區域。</span><br>
+<span>5.如果沒有相鄰區域具有足夠接近的均值，則建立一個新的segment。</span></p>
+</li>
+<li>
+<p><span>Combined Centroid-Hybrid Linkage</span><br>
+<span>Centroid-linkage for only non-edge pixels</span><br>
+<span>Region growing is not permitted across edge pixels</span></p>
+</li>
+<li>
+<p><span>Clustering</span><br>
+<span>1.在模式識別(pattern recognition)中，這是將一組模式向量劃分為子集的過程。</span><br>
+<span>2.將具有相似屬性的項目分組到一個子集中。</span></p>
+</li>
+</ul><ol>
+<li><span>In pattern recognition, it is the process of partitioning a set of pattern vectors into subsets.</span></li>
+<li><span>Grouping items with similar properties together into a subset.</span></li>
+</ol><ul>
+<li>
+<p><span>measurement space</span><br>
+<span>待分群的指定特徵代表的空間</span></p>
+</li>
+<li>
+<p><span>Spatial Clustering</span><br>
+<span>Simultaneously combining clustering in measurement space with a spatial region growing</span></p>
+</li>
+<li>
+<p><span>k-means</span><br>
+<span>Algorithm</span><br>
+<span>1.Randomly initialize cluster centers </span><span class="mathjax raw">\(U_1 ... U_K\)</span><br>
+<span>2.Determine points in each cluster:</span><br>
+<span>For each point x, find the closest Ui; put x into cluster i</span><br>
+<span>3.Given points in each cluster, solve for Ui:</span><br>
+<span>Set Ui to be the mean of points in cluster i</span><br>
+<span>4.If any Ui has changed, repeat Step 2.</span></p>
+</li>
+<li>
+<p><span>Local Histogram thresholding</span><br>
+<span>先將影像切分塊，再求出各塊的 histogram 後做 interpolation。</span></p>
+</li>
+<li>
+<p><span>High Laplacian Magnitude thresholding</span><br>
+<span>先利用 Laplacian Magnitude 找出邊界後，僅求出邊界附近的 histogram 來分群。</span></p>
+</li>
+<li>
+<p><span>Minimized Busyness thresholding</span><br>
+<span>場景為被雜訊干擾的影像，計算整張影像有幾趴的 pixel 的數值與鄰域門檻值不一致。</span></p>
+</li>
+<li>
+<p><span>Version 1: Split and Merge(Original Approach)</span><br>
+<span>步驟：</span><br>
+<span>1.以整個圖像作為初始segment</span><br>
+<span>2.如果細分的同質性不夠，請連續將其每個細分細分為四分之一。</span><br>
+<span>3.合併方法從初始分割開始，然後連續合併足夠相似的區域。</span><br>
+<span>Steps:</span><br>
+<span>1.Begins with the entire image as the initial segment</span><br>
+<span>2.Successively splits each of its current segments into quarters if the segment is not homogeneous enough.</span><br>
+<span>3.A merging method starts with an initial segmentation and successively merges regions that are similar enough.</span></p>
+<ul>
+<li><span>homogeneous enough:</span></li>
+<li><span>Max – min(極值差異)</span></li>
+<li><span>Variance(變異數)</span></li>
+</ul>
+</li>
+<li>
+<p><span>Version 2: Split and Merge (Horowitz and Pavlidis (1976))</span><br>
+<span>1.使用Quadtree作為資料結構，root為整張影像</span><br>
+<span>2.segmentation用cutset表示(root與leaves分開的最小節點集)</span><br>
+<span>3.merge包括從cutset中刪除四個節點並將其替換為其父節點。</span><br>
+<span>4.split包括從cutset中刪除一個節點，並用其四個子節點替換它</span><br>
+<span>5.在split and merge之後，執行Final Grouping，該過程可以合併在cutset中找到的相鄰無關塊。</span></p>
+</li>
+<li>
+<p><span>Thresholding(Kohler 1981)</span></p>
+<ul>
+<li><span>Objective: Maximize (</span><span class="mathjax raw">\(\frac{C(T)}{\#E(T)}\)</span><span>)</span></li>
+<li><span>Define </span><span class="mathjax raw">\(E(T)\)</span><span>:edges detected by a threshold </span><span class="mathjax raw">\(T\)</span></li>
+<li><span class="mathjax raw">\(E(T)=\{[(i,j),(k,l)]\}\)</span>
+<ul>
+<li><span>1.pixels(i,j) and (k,l) are neighbors</span></li>
+<li><span>2.</span><span class="mathjax raw">\(min\{I(i,j),I(k,l))\}\)</span><span> </span><span class="mathjax raw">\(\leq\)</span><span> </span><span class="mathjax raw">\(T\)</span><span> &lt; </span><span class="mathjax raw">\(max\{I(i,j),I(k,l))\}\)</span><br>
+<img src="https://i.imgur.com/ZjJIcni.png" alt="" height="100"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h2 id="Ch11-Arc-Extraction-and-Segmentation" data-id="Ch11-Arc-Extraction-and-Segmentation"><span>Ch11 Arc Extraction and Segmentation</span></h2><h3 id="助教說可能會考的區塊4" data-id="助教說可能會考的區塊"><span>助教說可能會考的區塊</span></h3><p><span>11.2 Extracting Boundary Pixels from a Segmented Image</span><br>
+<span>11.3 Linking One-Pixels-Wide Edges or Lines</span></p><h3 id="名詞解釋4" data-id="名詞解釋"><span>名詞解釋</span></h3><ul>
+<li>
+<p><span>grouping:</span><br>
+<span>內容：</span><br>
+<span>The grouping operation identifies the events by collecting together or identifying maximal connected sets of pixels participating in the same kind of event.</span><br>
+<mark><span>把標籤值相同或相近的區塊圈選出來</span></mark><br>
+<span>分組操作通過收集在一起或識別參與相同類型事件的最大像素連接集來識別事件。</span><br>
+<span>分組前：像素；分組後：像素集</span><br>
+<span>目的：</span><br>
+<span>有利於將群組化後的資訊進行一些計算</span><br>
+<span>應用：</span><br>
+<span>segmentation分割、edge linking邊緣鏈接</span></p>
+</li>
+<li>
+<p><span>extracting:</span><br>
+<span>內容：</span><br>
+<span>The extracting operation computes for each group of pixels a list of its properties.</span><br>
+<span>example properties: centroid, orientation, area, spatial moments</span><br>
+<mark><span>提取操作：為每組像素計算其屬性列表。</span></mark><br>
+<span>針對群組化後的資訊進行一些計算，算出一些能代表群組特性的數值，例如：標準差、平均值等</span><br>
+<span>目的：</span><br>
+<mark><span>把觀察物區塊標明出來，並且得到夠多的資訊以理解觀察物。</span></mark><br>
+<span>應用：</span><br>
+<span>解析質心、orientation方向、面積、空間矩</span></p>
+</li>
+<li>
+<p><span>Junction:</span><br>
+<span>Point where lines, arcs, segments meet.</span></p>
+</li>
+<li>
+<p><span>Border Tracking Algorithm</span><br>
+<span>An algorithm that follows the border of a segmented image to extract boundary pixels.</span><br>
+<span>Input: symbolic image（label好背景與區域的的Image）</span><br>
+<span>Output: a clockwise ordered list of the coordinates of its border pixels</span><br>
+<span>In one left right, top bottom scan through the image</span><br>
+<span>During execution, there are 3 sets of regions: current, past, future</span></p>
+</li>
+</ul><blockquote>
+<p><span>遇到一個Label，如果他的鄰居有在chainset的尾巴，就加進chainset，如果沒有就新增一個chainset，最後把同個label的chainset都連起來。</span></p>
+</blockquote><ul>
+<li><span>Linking One-Pixel-Wide Edges or Lines</span><br>
+<span>tracking symbolic edge (line) segments</span><br>
+<span>input: symbolic image (1 for edge, 0 for non-edge)</span><br>
+<span>pixeltype:</span>
+<ul>
+<li><span>isolated point</span></li>
+<li><span>starting point on new segment</span></li>
+<li><span>interior pixel of an old segment</span></li>
+<li><span>ending point of an old segment</span></li>
+<li><span>junction</span></li>
+<li><span>corner</span></li>
+</ul>
+</li>
+</ul><blockquote>
+<p><span>如果鄰居中沒有屬於某一個segment，則新增一個segment。</span><br>
+<span>如果鄰居中有屬於某一個segment，則視為同一個segment。</span><br>
+<span>如果鄰居中有兩個分別屬於不同segment，視為joint，作為兩個segment的end</span><br>
+<span>如果pixeltype是cornor時，視為該segment的end</span></p>
+</blockquote><ul>
+<li>
+<p><span>Arc segmentation</span><br>
+<span>partition extracted digital arc sequence into digital arc subsequences (each is a maximal sequence that can fit a straight or curveline)</span></p>
+</li>
+<li>
+<p><span>Simple Arc Segment</span><br>
+<span>Arcs segment that is a straight line segment or one that is a curved-arc segment containing no straight-line segments.</span></p>
+</li>
+<li>
+<p><span>Breakpoint Optimization</span><br>
+<span>移動arc sequence的斷點以產生更好的segment。 重複執行以下操作，直到沒有任何改善：移位奇數點，看最大誤差是否減小，如果是，則繼續移位，否則嘗試移位偶數點。</span></p>
+</li>
+</ul><blockquote>
+<p><span>Shifting the breakpoints of the arc sequence to produce a better arc segmentation. Repetitively do the following until no improvement:</span><br>
+<span>Shift the odd number points and see if the maximum error is reduced, if yes then keep the shift, otherwise try shifting the even number points.</span></p>
+</blockquote><ul>
+<li>
+<p><span>Iterative endpoint fit and split</span><br>
+<span>內容與目的：透過設定distance threshold </span><span class="mathjax raw">\(d^*\)</span><span>，和解</span><span class="mathjax raw">\(d_m=max\{d_i\}\)</span><span>來將arc sequence分割成筆直的subsequence</span><br>
+<span>應用：</span></p>
+</li>
+<li>
+<p><span>Tangential angle deflection</span><br>
+<span>內容與目的：識別兩個線段相交並形成角度的位置來分割arc sequence。</span><br>
+<span>應用：</span></p>
+</li>
+<li>
+<p><span>Uniform bounded-error approximation</span><br>
+<span>將arc sequence做最大分割，這些點的點偏離線段擬合不超過給定值（邊界誤差）。</span></p>
+</li>
+</ul><blockquote>
+<p><span>Segmenting the arc sequence into maximal pieces whose points deviate from a</span><br>
+<span>line-segment fit by no more than a given amount (bounded-error).</span></p>
+</blockquote><ul>
+<li>
+<p><span>Isodata segmentation</span><br>
+<span>決定line-fit參數，然後將每個點歸類到cluster whose line fit closest to the point</span></p>
+</li>
+<li>
+<p><span>Split and merge(For arc)</span><br>
+<span>第一：將弧分成幾段，誤差足夠小</span><br>
+<span>第二：合併接續(successive)的分段，如果合併後的分段具有足夠小的誤差</span><br>
+<span>第三：嘗試調整斷點以獲得更好的細分</span><br>
+<span>重複：直到所有三個步驟都沒有進一步的變化</span></p>
+</li>
+<li>
+<p><span>Hough transform</span><br>
+<span>內容與目的：在灰階圖中偵測直線和曲線的方法，會透過accumulator array 來計算</span><br>
+<span>應用：偵測道路線</span></p>
+</li>
+<li>
+<p><span>curvature</span><br>
+<img src="https://i.imgur.com/g8gA17p.png" alt=""><br>
+<span>Δs : the change in arc length</span><br>
+<span>Δθ : the change in tangent angle</span></p>
+</li>
+</ul><h2 id="助教們研究" data-id="助教們研究"><span>助教們研究</span></h2><h3 id="1Vehicle-License-Plate-Recognition-with-Deep-Learning" data-id="1Vehicle-License-Plate-Recognition-with-Deep-Learning"><span>1.Vehicle License Plate Recognition with Deep Learning</span></h3><p><img src="https://i.imgur.com/QS9Rmdk.png" alt=""></p><h3 id="2Label-Optical-Character-Recognition" data-id="2Label-Optical-Character-Recognition"><span>2.Label Optical Character Recognition.</span></h3><p><img src="https://i.imgur.com/CZtBP6i.png" alt=""></p><h3 id="3Time-of-Flight-Camera-Calibration" data-id="3Time-of-Flight-Camera-Calibration"><span>3.Time of Flight Camera Calibration</span></h3><p><img src="https://i.imgur.com/iFwf5wh.png" alt=""></p><h3 id="4Solder-Quality-Analysis" data-id="4Solder-Quality-Analysis"><span>4.Solder Quality Analysis</span></h3><p><img src="https://i.imgur.com/8fUvFmG.png" alt=""><br>
+<span>考試答案</span><br>
+<span>方法：</span><br>
+<span>學習式向量量化神經網路 + 查找表</span><br>
+<span>步驟：4個灰度曲線圖→學習式向量量化神經網路→5個曲線類別→查找表→3個錫球品質類別</span><br>
+<span>結果：</span><br>
+<span>錫球被分類為：錫球量過多、錫球量正常或錫球量不足</span></p><h3 id="5Noise-Reduction-for-Enhancing-Speech-Quality-And-Intelligibility" data-id="5Noise-Reduction-for-Enhancing-Speech-Quality-And-Intelligibility"><span>5.Noise Reduction for Enhancing Speech Quality And Intelligibility</span></h3><blockquote style="border-left-color: rgb(186, 68, 229);">
+<p><span>外國人助教是說寫三種model其中一個就可以，但不知道改考卷的助教是否是他，所以不清楚寫多細才可以全拿。</span><span class="color" data-color="#ba44e5"></span></p>
+</blockquote><p><span>Methods: Deep Denoising AutoEncoder (DDAE)</span><br>
+<span>Steps: input speech  =&gt; FFT =&gt; speech enhancement (DDAE) =&gt; enhanced speech =&gt; calculate spectral difference =&gt; DDAE =&gt; IFFT =&gt; final enhanced speech</span><br>
+<span>Results: input noisy speech to enhanced speech</span></p><h4 id="Methods" data-id="Methods"><span>Methods:</span></h4><p><span>There are three methods to do noise reduction</span><br>
+<span>1.Noise Reduction Using Two Stages Deep Learning Model</span><br>
+<span>2.Specialized Speech Enhancement Model Selection Based on Learned Non-Intrusive Quality Assessment Metric</span><br>
+<span>3.Speech Enhancement based on Denoising Autoencoder with Multi- branched Encoders</span></p><h4 id="Steps" data-id="Steps"><span>Steps:</span></h4><p><span>Each figure corresponds to different methods</span></p><h5 id="1" data-id="1"><span>1</span></h5><p><img src="https://i.imgur.com/f0ThhJL.png" alt=""><br>
+<img src="https://i.imgur.com/MCQbPhY.png" alt=""></p><h5 id="2" data-id="2"><span>2</span></h5><p><img src="https://i.imgur.com/X1nNbXx.png" alt=""></p><h5 id="3" data-id="3"><span>3</span></h5><p><img src="https://i.imgur.com/5u5t2QC.png" alt=""></p><h4 id="Results" data-id="Results"><span>Results</span></h4><ol start="2">
+<li>
+<ul>
+<li><span>Performance on WSJ dataset</span></li>
+<li><span>Test data were injected by 4 unseen noises</span></li>
+<li><span>Performance improved in terms of PESQ and STOI metrics</span></li>
+</ul>
+</li>
+</ol><h2 id="Bonus" data-id="Bonus"><span>Bonus</span></h2><p><span>Is text or joke more important?</span><br>
+<span>ans:笑話比本文重要！</span></p><blockquote>
+<p><span>貌似是每年都會有的bonus ：</span><a href="https://www.pttweb.cc/bbs/NTU-Exam/M.1578382932.A.CA6" target="_blank" rel="noopener"><span>https://www.pttweb.cc/bbs/NTU-Exam/M.1578382932.A.CA6</span></a></p>
+</blockquote><p><span>Please write the Chinese name of Professor Chiou-Shann Fuh.</span><br>
+<span>ans: 傅楸善</span></p><p><span>猴子在開飛機</span></p><p><span>What’s Professor Chiou-Shann Fuh’s pet phrase? (a) 酷斃了Cool (b) 帥呆人Handsome (c) 好極了Good (d)棒透了Awesome</span></p><p><span>(c)</span></p><p><span>Please translate “To err is human, to forgive divine.” into Chinese.</span><br>
+<span>人非聖賢，孰能無過</span></p><p><span>Please translate “塞翁失馬，焉知非福” into English.</span><br>
+<span>Sometimes misfortune is a blessing in disguise.</span></p><h2 id="考古" data-id="考古"><span>考古</span></h2><h3 id="108" data-id="108"><span>108</span></h3><p><span>(1)conditioning</span><br>
+<span>(2)labeling</span><br>
+<span>(3)extremum sharpening</span><br>
+<span>(4)Sobel edge detector</span><br>
+<span>(5)facet model</span><br>
+<span>(6)directional derivative</span><br>
+<span>(7)corner detection algorithm</span><br>
+<span>(8)tangent line</span><br>
+<span>(9)fractal</span><br>
+<span>(10)Hough transform</span><br>
+<span>(11)border-tracking algorithm</span><br>
+<span>(12)iterative endpoint fit and split</span><br>
+<span>(13)tangential angle deflection</span><br>
+<span>(14)breakpoint optimization</span></p><p><span>2.(6%) Please list at least 3 noise removal methods and equations using</span><br>
+<span>neighborhood operators.</span></p><p><span>3.(6%) Please describe the method, steps, and results of Super Resolution and</span><br>
+<span>Point Spread Function Inverse Filtering for X-Ray Images</span></p><p><span>4.(6%) Consider the following 3X3 region:</span><br>
+<span>r/c     -1      0       1</span><br>
+<span>-1      3       5       9</span><br>
+<span>0       4       7       7</span><br>
+<span>1       0       3       7</span><br>
+<span>The sloped facet is given by α^r + β^c + γ^ . What are the values of</span><br>
+<span>estimated parameters α^, β^, γ^?</span><br>
+<span>Hint:</span></p><p><span>5.(6%) Please describe the method, steps, and results of Hand Gesture</span><br>
+<span>Recognition with 3D Camera.</span></p><p><span>6.(6%) Please list three issues of the texture analysis and give a detailed</span><br>
+<span>description for each issue.</span></p><p><span>7.(6%) Please show the steps of the synthetic texture image generation, that is, how you can generate new texture images using one original texture image.</span></p><p><span>8.(6%) Please describe the method, steps, and results of Driver Drowsiness</span><br>
+<span>Detection.</span></p><p><span>9.(6%) Please list at least three image segmentation methods and explain in</span><br>
+<span>detail</span></p><p><span>10.(6%) Please calculate the average contrast (C(T)/#E(T)) of all edges.</span></p><p><span>T=50</span><br>
+<span>[45, 110]</span><br>
+<span>[33,88]</span><br>
+<span>[15, 65]</span><br>
+<span>[45, 115]</span><br>
+<span>[0, 225]</span></p><p><span>11.(6%) Please describe the method, steps, and results of Filtered Back</span><br>
+<span>Projection for X-Ray Images</span></p><p><span>12.(6%) Please fit the best straight line L: y=mx+b for the given data points.(圖片省略，但其三點分別為：(1, 3), (2, 2), (3, 1))</span></p><p><span>13.(6%) Please describe the method, steps, and results of Medical Image</span><br>
+<span>Segmentation for Pancreas Cancer.</span></p><p><span>Bonus</span><br>
+<span>14.(2%) Please write the Chinese name of Professor Chiou-Shann Fuh.</span><br>
+<span>15.(2%) What’s Professor Chiou-Shann Fuh’s pet phrase? (a) 酷斃了Cool (b) 帥呆人Handsome © 好極了Good (d)棒透了Awesome</span><br>
+<span>16.(2%) Is text or joke more important?</span><br>
+<span>17.(2%) Please translate “To err is human, to forgive divine.” into Chinese.</span><br>
+<span>18.(2%) Please translate “塞翁失馬，焉知非福” into English.</span></p></div>
